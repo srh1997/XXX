@@ -1,0 +1,162 @@
+.container {
+  width: 1880px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+.searchBar {
+  height: 20px;
+  margin: 25px  0;
+  text-align: left;
+  select{
+    padding:  3px;
+    margin: 0 10px;
+    width: 100px;
+    height: 25px;
+    appearance: none;
+    border-radius: 0;
+    background: url("../static/1.png")  right no-repeat;
+    background-size: 16px auto;
+    &:hover {
+      border-color: #37bae5;
+    }
+  }
+  input {
+    border-radius: 0px;
+    &:hover {
+      border-color: #37bae5;
+    }
+  }
+  span {
+    font-size: 13px;
+  }
+
+    .btn1 {
+      background: #2ba3ef;
+      color: white;
+      font-weight: bold;
+      display: inline-block;
+      width: 50px;
+      text-align: center;
+      height: 22px;
+      margin: 0 3px;
+      padding: 2px;
+      font-size: 12px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.7;
+        transition: 200ms;
+      }
+    }
+    .btn2 {
+      font-weight: bold;
+      background: #dddddd;
+      display: inline-block;
+      width: 50px;
+      text-align: center;
+      height: 22px;
+      padding: 2px;
+      margin: 0 3px;
+      font-size: 12px;
+      cursor: pointer;
+      &:hover {
+        opacity: 0.7;
+        transition: 200ms;
+      }
+
+  }
+
+}
+
+.data {
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+  font-size: 14px;
+  text-align: left;
+  span {
+    display: inline-block;
+    height: 100%;
+    padding: 3px;
+  }
+
+  .header {
+    background: #f4f4f4;
+    height: 40px;
+    span {
+      font-weight: bold;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+  }
+  .text {
+    border-bottom: 1px solid #dddddd;
+    height: 40px;
+    .create_time{
+      color: #52b8f2;
+    }
+    span {
+      padding-left: 10px;
+      padding-top: 12px;
+    }
+  }
+  .id {
+    width: 50px;
+  }
+  .create_time{
+    width: 180px;
+  }
+  .pay_money{
+    width: 100px;
+  }
+  .openid {
+    width: 280px;
+  }
+  .name {
+    width: 120px;
+  }
+  .type {
+    width: 80px;
+  }
+  .use_where {
+    width: 70px;
+  }
+  .package {
+    width: 50px;
+  }
+  .order_no {
+    width: 180px;
+  }
+  .expire_date {
+    width: 180px;
+  }
+  .phone {
+    width: 140px;
+  }
+  .zihao {
+    width: 100px;
+  }
+  .account {
+    width: 150px;
+  }
+  .password {
+    width: 100px;
+  }
+  .pageUpAndDown {
+    height: 50px;
+    position: relative;
+    .pageControl{
+      position: absolute;
+      right: 250px;
+      top: 50%;
+      transform: translateY(-50%);
+      button {
+        border: none;
+        color: #52b8f2;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none;
+      }
+    }
+  }
+
+}

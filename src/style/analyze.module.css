@@ -1,0 +1,125 @@
+.container {
+  width: 1880px;
+  margin: 0 auto;
+  font-weight: 600; }
+
+.searchBar {
+  height: 20px;
+  margin: 25px  0;
+  text-align: left; }
+  .searchBar select {
+    padding: 3px;
+    margin: 0 10px;
+    width: 100px;
+    height: 25px;
+    appearance: none;
+    border-radius: 0;
+    background: url("../static/1.png") right no-repeat;
+    background-size: 16px auto; }
+    .searchBar select:hover {
+      border-color: #37bae5; }
+  .searchBar input {
+    border-radius: 0px; }
+    .searchBar input:hover {
+      border-color: #37bae5; }
+  .searchBar span {
+    font-size: 13px; }
+  .searchBar .btn1 {
+    background: #2ba3ef;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    height: 22px;
+    margin: 0 3px;
+    padding: 2px;
+    font-size: 12px;
+    cursor: pointer; }
+    .searchBar .btn1:hover {
+      opacity: 0.7;
+      transition: 200ms; }
+  .searchBar .btn2 {
+    font-weight: bold;
+    background: #dddddd;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    height: 22px;
+    padding: 2px;
+    margin: 0 3px;
+    font-size: 12px;
+    cursor: pointer; }
+    .searchBar .btn2:hover {
+      opacity: 0.7;
+      transition: 200ms; }
+
+.data {
+  border-radius: 3px;
+  border: 1px solid #dddddd;
+  font-size: 14px;
+  text-align: left; }
+  .data span {
+    display: inline-block;
+    height: 100%;
+    padding: 3px; }
+  .data .header {
+    background: #f4f4f4;
+    height: 40px; }
+    .data .header span {
+      font-weight: bold;
+      padding-top: 10px;
+      padding-left: 10px; }
+  .data .text {
+    border-bottom: 1px solid #dddddd;
+    height: 40px; }
+    .data .text .create_time {
+      color: #52b8f2; }
+    .data .text span {
+      padding-left: 10px;
+      padding-top: 12px; }
+  .data .id {
+    width: 50px; }
+  .data .create_time {
+    width: 180px; }
+  .data .pay_money {
+    width: 100px; }
+  .data .openid {
+    width: 280px; }
+  .data .name {
+    width: 120px; }
+  .data .type {
+    width: 80px; }
+  .data .use_where {
+    width: 70px; }
+  .data .package {
+    width: 50px; }
+  .data .order_no {
+    width: 180px; }
+  .data .expire_date {
+    width: 180px; }
+  .data .phone {
+    width: 140px; }
+  .data .zihao {
+    width: 100px; }
+  .data .account {
+    width: 150px; }
+  .data .password {
+    width: 100px; }
+  .data .pageUpAndDown {
+    height: 50px;
+    position: relative; }
+    .data .pageUpAndDown .pageControl {
+      position: absolute;
+      right: 250px;
+      top: 50%;
+      transform: translateY(-50%); }
+      .data .pageUpAndDown .pageControl button {
+        border: none;
+        color: #52b8f2;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+        outline: none; }
+
+/*# sourceMappingURL=analyze.module.css.map */

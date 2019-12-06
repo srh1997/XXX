@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box; }
+
+.welcome {
+  padding: 0 10px;
+  position: relative;
+  height: 40px;
+  background: #edffe9;
+  margin-bottom: 20px; }
+  .welcome .pic {
+    display: inline-block;
+    width: 400px;
+    height: 26px;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    background-image: url("../static/2.png");
+    background-size: 300px auto;
+    background-repeat: no-repeat; }
+  .welcome .name {
+    position: absolute;
+    right: 120px;
+    color: #76cd6a;
+    top: 8px;
+    font-weight: bold; }
+  .welcome .a {
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    color: #5ac2ef; }
+
+.link {
+  text-align: left;
+  border-bottom: 1px solid #dddddd;
+  margin: 10px auto;
+  width: 1900px;
+  padding-top: 6px; }
+  .link a {
+    display: inline;
+    text-decoration: none;
+    padding: 0 10px;
+    /*font-size: 12px;*/ }
+  .link .link1, .link .link2 {
+    padding: 6px 15px 0 15px;
+    cursor: pointer; }
+
+/*# sourceMappingURL=header.module.css.map */

@@ -1,12 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import {Provider} from 'react-redux'
+// import './style/index.css';
+import App from './containers/visibleHomework'
+import * as serviceWorker from './serviceWorker'
+import reducer from "./reducers/reducer"
+import {createStore} from 'redux'
+import initialState from "./data/initialState";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+let store=createStore(reducer,initialState);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+console.log('store:',store.getState());
+
+ReactDOM.render(
+    <Provider store={store}>
+      <App />
+    </Provider>,
+    document.getElementById('root')
+);
+
+serviceWorker.register();
+
+let url='http://localhost:8080/index.html';
+fetch(url)
+    .then((res)=>{
+        return res.json();
+})
+    .then((data)=>{
+        console.log('data:',data);
+    })
+    .catch((err)=>{
+        console.log('Error:',err);
+    });

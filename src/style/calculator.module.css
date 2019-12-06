@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box; }
+
+.container {
+  width: 400px;
+  margin: 0 auto; }
+
+.btnPart button {
+  width: 25%;
+  height: 90px;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 40px;
+  padding: 20px;
+  background: #777777;
+  outline: none;
+  border: 1px solid black;
+  color: #dddddd; }
+  .btnPart button:first-child {
+    background: #444444; }
+  .btnPart button:nth-child(2) {
+    background: #444444; }
+  .btnPart button:nth-child(3) {
+    background: #444444; }
+  .btnPart button:nth-child(4) {
+    background: orange; }
+  .btnPart button:nth-child(8) {
+    background: orange; }
+  .btnPart button:nth-child(12) {
+    background: orange; }
+  .btnPart button:nth-child(16) {
+    background: orange; }
+  .btnPart button:nth-child(19) {
+    background: orange; }
+  .btnPart button:nth-child(17) {
+    width: 50%; }
+  .btnPart button:hover {
+    transition: 300ms;
+    opacity: 0.5; }
+
+.result {
+  background: #2E2E2E;
+  height: 150px;
+  color: white;
+  font-size: 100px;
+  position: relative; }
+
+.num {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  font-weight: 300; }
+
+@keyframes deep {
+  50% {
+    background: #777777; } }
+.rotate {
+  position: fixed;
+  left: 50%;
+  top: 50%; }
+
+.circle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #777777;
+  z-index: 10;
+  top: 10px;
+  left: -8px; }
+
+.app {
+  width: 4px;
+  height: 20px;
+  position: absolute;
+  border-radius: 2px 2px 0 0;
+  background: #cccccc; }
+
+.app:first-child {
+  animation: deep 1.5s; }
+
+.app:nth-child(2) {
+  transform: rotate(30deg);
+  transform-origin: 50% 100%;
+  animation: deep 1.5s;
+  animation-delay: 125ms; }
+
+.app:nth-child(3) {
+  transform: rotate(60deg);
+  transform-origin: 50% 100%;
+  animation: deep 1.5s;
+  animation-delay: 250ms; }
+
+.app:nth-child(4) {
+  transform: rotate(90deg);
+  transform-origin: 50% 100%;
+  animation: deep 1.5s;
+  animation-delay: 375ms; }
+
+.app:nth-child(5) {
+  transform: rotate(120deg);
+  transform-origin: 50% 100%;
+  animation: deep 1.5s;
+  animation-delay: 500ms; }
+
+.app:nth-child(6) {
+  transform: rotate(150deg);
+  transform-origin: 50% 100%;
+  animation: deep 1.5s;
+  animation-delay: 625ms; }
+
+.app:nth-child(7) {
+  transform: rotate(180deg);
+  transform-origin: 50% 100%;
+  animation: deep 1.5s;
+  animation-delay: 750ms; }
+
+.app:nth-child(8) {
+  transform: rotate(210deg);
+  transform-origin: 50% 100%;
+  animation: deep 1.5s;
+  animation-delay: 875ms; }
+
+.app:nth-child(9) {
+  transform: rotate(240deg);
+  transform-origin: 50% 100%;
+  animation: deep 1.5s;
+  animation-delay: 1000ms; }
+
+.app:nth-child(10) {
+  transform: rotate(270deg);
+  transform-origin: 50% 100%;
+  animation: deep 1.5s;
+  animation-delay: 1125ms; }
+
+.app:nth-child(11) {
+  transform: rotate(300deg);
+  transform-origin: 50% 100%;
+  animation: deep 1.5s;
+  animation-delay: 1250ms; }
+
+.app:nth-child(12) {
+  transform: rotate(330deg);
+  transform-origin: 50% 100%;
+  animation: deep 1.5s;
+  animation-delay: 1375ms; }
+
+/*# sourceMappingURL=calculator.module.css.map */
